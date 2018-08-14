@@ -1,0 +1,62 @@
+cmake_minimum_required(VERSION 3.9)
+
+project(MAT2)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(MAT2
+        Armor.cpp
+        Armor.hpp
+        ArmorFactory.cpp
+        ArmorFactory.hpp
+        AttackAction.cpp
+        AttackAction.hpp
+        BodyArmor.cpp
+        BodyArmor.hpp
+        Console.cpp
+        Console.hpp
+        CSVinput.cpp
+        CSVinput.hpp
+        DataBase.cpp
+        DataBase.hpp
+        Game.cpp
+        Game.hpp
+        GameInit.cpp
+        GameInit.hpp
+        IAction.hpp
+        Iinput.hpp
+        Ioutput.hpp
+        M16.cpp
+        M16.hpp
+        Missile.cpp
+        Missile.hpp
+        NormalSoldier.cpp
+        NormalSoldier.hpp
+        Paramedic.cpp
+        Paramedic.hpp
+        Player.cpp
+        Player.hpp
+        Point2d.cpp
+        Point2d.hpp
+        ShieldArmor.cpp
+        ShieldArmor.hpp
+        Sniper.cpp
+        Sniper.hpp
+        Soldier.cpp
+        Soldier.hpp
+        SoldierFactory.cpp
+        SoldierFactory.hpp
+        SolidObj.cpp
+        SolidObj.hpp
+        SolidObjFactory.cpp
+        SolidObjFactory.hpp
+        Tree.cpp
+        Tree.hpp
+        UnitMat.cpp
+        UnitMat.hpp
+        UZI.cpp
+        UZI.hpp
+        Weapon.cpp
+        Weapon.hpp
+        WeaponFactory.cpp
+        WeaponFactory.hpp)
